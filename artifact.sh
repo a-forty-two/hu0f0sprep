@@ -30,5 +30,6 @@ unzip DLLabs.zip -d labfiles
 rm DLLabs.zip
 rm -rf labfiles/_MACOSX
 pip install opencv-python
+export PATH=$PATH:/home/hu0f0s/jupyter/bin
 jupyter notebook --generate-config
 jupyter notebook --no-browser --ip=0.0.0.0

@@ -31,5 +31,6 @@ rm DLLabs.zip
 rm -rf labfiles/_MACOSX
 pip install opencv-python
 export PATH=$PATH:/home/hu0f0s/jupyter/bin
+wget https://raw.githubusercontent.com/a-forty-two/hu0f0sprep/main/labinit.sh
 jupyter notebook --generate-config
 jupyter notebook --no-browser --ip=0.0.0.0
